@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "b691fc8b-57d6-4561-b93c-814674a8fe23",
+		"name": "adega",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "22368315"
+	},
+	"item": [
+		{
+			"name": "lista compras",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/v1/compras"
+			},
+			"response": []
+		},
+		{
+			"name": "maior compra ano",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/maior-compra/:ano",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"maior-compra",
+						":ano"
+					],
+					"variable": [
+						{
+							"key": "ano",
+							"value": "2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "clientes fies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/v1/clientes-fieis"
+			},
+			"response": []
+		},
+		{
+			"name": "recomendacoes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/recomendacao/:cpf/tipo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"recomendacao",
+						":cpf",
+						"tipo"
+					],
+					"variable": [
+						{
+							"key": "cpf",
+							"value": "27737287426"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
