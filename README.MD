@@ -30,6 +30,7 @@ Crie um microserviço com os seguintes endpoints após consumir os dados dos moc
 - [x] Collections Postman
 - [x] Desenho de solução em nuvem aws (IaaS)
 - [x] Desenho de solução em openshift (PaaS)
+- [x] Modelo de entidades e relacionamentos ER
 - [ ] Testes automatizados
 - [ ] Tratamento de erros
 - [ ] Testes de performance (JMeter)
@@ -53,9 +54,13 @@ A documentação da API está disponível através do Swagger UI, acessível em 
 
 ### Solução de arquitetura em AWS
 
-![solucao-aws](solucao-aws.drawio.png "Solução AWS")
+![solucao-aws](assets/solucao-aws.drawio.png "Solução AWS")
 
 
 ### Solução de arquitetura com openshift (PaaS)
 
-![solucao-paas](solucao-paas.drawio.png "Solução PaaS")
+![solucao-paas](assets/solucao-paas.drawio.png "Solução PaaS")
+
+## ER - Entidades e Relacionamentos
+
+![mer-adega](assets/MER-ADEGA.png "MER Adega")
