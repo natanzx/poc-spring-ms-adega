@@ -4,6 +4,7 @@
 
 Este projeto foi concebido para avaliação técnica e validação de novas tecnologias.
 
+---
 Crie um microserviço com os seguintes endpoints após consumir os dados dos mocks acima e retorne o que está sendo solicitado:
 
 - GET: `/compras` - Retornar uma lista das compras ordenadas de forma crescente por valor, deve conter o nome dos clientes, cpf dos clientes, dado dos produtos, quantidade das compras e valores totais de cada compra.
